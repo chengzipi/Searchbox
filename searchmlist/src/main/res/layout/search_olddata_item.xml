@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:background="@drawable/sousuo_back_or_search_button_shap"
+    android:textColor="@color/content_text_readed"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:singleLine="true"
+    >
+</TextView>

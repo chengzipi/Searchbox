@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View 
+    android:background="@drawable/bg_shadow_set_bottom" 
+    android:layout_width="fill_parent" 
+    android:layout_height="1.0dip"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

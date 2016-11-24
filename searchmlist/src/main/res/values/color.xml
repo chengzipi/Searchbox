@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top_search_bg_nt">#ff145f8f</color>
+    <color name="huise">#c2979797</color>
+    <color name="transparent">#00000000</color>
+    <color name="content_text_readed">#ff828282</color>
+    <color name="heise">#353232</color><!--黑色 -->
+
+
+
+    <color name="bg_huise_ff">#d6d6d6</color><!--灰色 -->
+
+
+    <color name="bg_huise_a">#f2f2f2</color><!--灰色 -->
+    <color name="bg_huise_b">#cacaca</color><!--灰色边框 -->
+    <color name="bg_lvse_a">#f2f6e9</color><!-- 绿色 -->
+    <color name="bg_lvse_b">#b8ce8e</color><!--绿色边框 -->
+    <color name="bg_lanse_a">#e8f6f6</color><!--蓝色 -->
+    <color name="bg_lanse_b">#92dbde</color><!--蓝色边框 -->
+    <color name="bg_fense_a">#f9eaeb</color><!--粉色 -->
+    <color name="bg_fense_b">#fba1a8</color><!--粉色边框 -->
+    <color name="bg_chengse_a">#f8f2ec</color><!--橙色 -->
+    <color name="bg_chengse_b">#f9c189</color><!--橙色边框 -->
+
+
+
+
+    <!--经典 收藏 -->
+    <color name="mlcred">#f34336</color><!--red -->
+    <color name="mlcpink">#e81f63</color><!--pink -->
+    <color name="mlcheihui">#374046</color><!--黑灰 -->
+    <color name="mlcpurple">#9c28af</color><!--purple -->
+    <color name="mlcdeeppurple">#673ab6</color><!--deep purple -->
+    <color name="mlcindigo">#3f51b4</color><!--indigo -->
+    <color name="mlcblue">#2296f2</color><!--blue -->
+    <color name="mlclightblue">#04a9f3</color><!--light blue -->
+    <color name="mlccyan">#02bcd4</color><!--cyan -->
+    <color name="mlcteal">#029789</color><!--teal -->
+    <color name="mlcgreen">#4cae50</color><!--green -->
+    <color name="mlclightgreen">#8bc24a</color><!--light green -->
+    <color name="mlclime">#cddc3a</color><!--lime -->
+    <color name="mlcyellow">#ffeb3c</color><!--yellow -->
+    <color name="mlcamber">#ffc109</color><!--amber -->
+    <color name="mlcorange">#fe9802</color><!--orange -->
+    <color name="mlcodeeprange">#fe5723</color><!--deep orange -->
+    <color name="mlcbrown">#795548</color><!--brown -->
+    <color name="mlcgrey">#9f9f9f</color><!--grey -->
+    <color name="mlcbluegrey">#607d8b</color><!--blue grey -->
+
+
+    <!--红橙黄绿青蓝紫-->
+    <color name="mlcred2">#ffea4f15</color><!--红色 -->
+    <color name="mlcchengse">#ff9c00</color><!--橙 -->
+    <color name="mlchuangse">#ff987b</color><!--黄色 -->
+    <color name="mlclvse">#00ff00</color><!--绿色 -->
+    <color name="mlcqingse">#00ffff</color><!--青色 -->
+    <color name="mlclanse">#0000ff</color><!--蓝色 -->
+    <color name="mlcfenhongse">#ff85c5</color><!--粉红色 -->
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SearchmList</string>
+    <string name="search_hint">热门搜索</string>
+    <string name="search_cancel">取消</string>
+    <string name="search_verify">搜索</string>
+
+    <string name="search_all">大家都在搜</string>
+    <string name="search_lately">最近搜索</string>
+
+    <string name="search_clear">清除历史</string>
+
+
+</resources>

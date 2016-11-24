@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="searchmlist">
+        <attr name="search_hint" format="string|reference"/><!--EditText hint-->
+        <attr name="search_baground" format="reference"/><!--EditText  background-->
+    </declare-styleable>
+</resources>

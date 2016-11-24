@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/msearch_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/huise"
+                android:text="@string/search_all"
+                />
+
+
+            <include
+                android:id="@+id/shadowview"
+                layout="@layout/shadow_set_layout" />
+
+            <com.czp.searchmlist.FlowLayout
+                android:padding="10dp"
+                android:id="@+id/id_flowlayouthot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.czp.searchmlist.FlowLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/huise"
+                    android:text="@string/search_lately"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/heise"
+                    android:id="@+id/tvclearolddata"
+                    android:text="@string/search_clear"
+                    android:background="@drawable/sousuo_clearolddata_shap"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="10dp" />
+
+            </RelativeLayout>
+
+
+
+
+            <include
+                android:id="@+id/shadowview"
+                layout="@layout/shadow_set_layout" />
+
+            <com.czp.searchmlist.selfSearchGridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gridviewolddata"
+                android:numColumns="3"
+                android:gravity="center"
+                android:padding="10dp"
+                >
+
+            </com.czp.searchmlist.selfSearchGridView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

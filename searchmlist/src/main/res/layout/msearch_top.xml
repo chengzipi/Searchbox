@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        >
+        <!--
+            编辑框控件
+            宽度匹配屏幕
+            高度适应文字
+            在编辑框左边画上搜索的那个图片
+            单行编辑框
+         -->
+        <EditText
+            android:id="@+id/et_searchtext_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/explore_search_icon"
+            android:background="@drawable/search_baground_shap"
+            android:singleLine="true"
+            android:layout_marginLeft="5dp"
+            android:imeOptions="actionSearch"
+            android:hint="@string/search_hint"
+            />
+        <!--
+            图片控件
+            宽度高度都是适应图片大小
+            图片资源来自一个配置文件
+            对齐在编辑框的右边
+            默认不可见且不占用屏幕位置
+         -->
+        <ImageView
+            android:id="@+id/ib_searchtext_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/explore_search_close"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignRight="@+id/et_searchtext_search"
+            android:layout_alignEnd="@+id/et_searchtext_search"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/search_cancel"
+        android:id="@+id/buttonback"
+        android:layout_toRightOf="@id/relativeLayout"
+        android:layout_gravity="center_vertical"
+        android:textSize="17sp"
+        android:background="@drawable/sousuo_back_or_search_button_shap"
+        />
+</LinearLayout>
+

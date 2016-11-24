@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+      <item 
+         android:state_pressed="true"
+          android:drawable="@drawable/sousuo_bg_gray_state_pressed_shap"
+       >
+      </item>
+    <item >
+
+        <shape
+            android:shape="rectangle"
+            >
+            <corners android:radius="3dp"/>
+            <solid android:color="@color/bg_lanse_a"/>
+            <stroke android:width="0.3dp"
+                android:color="@color/bg_lanse_b" />
+            <padding android:left="10dp" android:right="10dp" android:top="7dp" android:bottom="7dp"/>
+
+        </shape>
+
+
+    </item>
+</selector>
