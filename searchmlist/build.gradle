@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 // JitPack Maven
 apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
-group='com.github.Searchbox'
+group='com.github.chengzipi'
 
 android {
     compileSdkVersion 23
