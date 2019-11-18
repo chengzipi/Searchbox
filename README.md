@@ -6,8 +6,8 @@ android搜索框，推荐搜索，历史搜索
 
 
 
-# 使用方法
-###Add it in your root build.gradle at the end of repositories:
+# 使用方法
+### Add it in your root build.gradle at the end of repositories:
     allprojects {
       repositories {
       ...
@@ -15,14 +15,14 @@ android搜索框，推荐搜索，历史搜索
       }
     }
   
-###Add the dependency
+### Add the dependency
     dependencies {
         compile 'com.github.chengzipi:Searchbox:v1.0.0'
     }
 
 </br>
-#举例说明
-##XML
+# 举例说明
+## XML
     <com.czp.searchmlist.mSearchLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@ android搜索框，推荐搜索，历史搜索
     app:search_hint hint内容
     app:search_baground 搜索框背景
     
-##Code
+## Code
         //历史搜索数据
         String shareData = "澳洲美食,长沙美食,韩国料理,日本料理,舌尖上的中国,意大利餐,山西菜";
         List skills = Arrays.asList(shareData.split(","));
