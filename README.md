@@ -19,17 +19,18 @@ android搜索框，推荐搜索，历史搜索
     dependencies {
         compile 'com.github.chengzipi:Searchbox:v1.0.0'
     }
+    
+    
+### 举例说明  xml
 
-</br>
-### 举例说明
 ```
-    <com.czp.searchmlist.mSearchLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/msearchlayout"
-        app:search_hint="美食快搜"
-        app:search_baground="@drawable/search_baground_shap"
-        />
+<com.czp.searchmlist.mSearchLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/msearchlayout"
+    app:search_hint="美食快搜"
+    app:search_baground="@drawable/search_baground_shap"
+/>
 ```
         
 #### 属性方法 
