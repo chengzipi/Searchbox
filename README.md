@@ -21,8 +21,8 @@ android搜索框，推荐搜索，历史搜索
     }
 
 </br>
-# 举例说明
-## XML
+### 举例说明
+```
     <com.czp.searchmlist.mSearchLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,6 +30,8 @@ android搜索框，推荐搜索，历史搜索
         app:search_hint="美食快搜"
         app:search_baground="@drawable/search_baground_shap"
         />
+```
+        
 #### 属性方法 
     app:search_hint hint内容
     app:search_baground 搜索框背景
